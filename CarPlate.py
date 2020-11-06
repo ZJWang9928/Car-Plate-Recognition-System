@@ -95,8 +95,8 @@ def transform_license(img, pts0, pts1):
     return license
 
 if __name__ == "__main__":
-    dir_name = "./raw_imgs/"
-    target_dir_name = "./dataset/"
+    dir_name = "./data/raw_imgs/"
+    target_dir_name = "./data/dataset/"
     file_names = os.listdir(dir_name)
     random.shuffle(file_names)
 
